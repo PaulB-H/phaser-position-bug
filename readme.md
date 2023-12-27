@@ -1,3 +1,6 @@
+Created for Phaser Issue 6698
+[https://github.com/photonstorm/phaser/issues/6698](https://github.com/photonstorm/phaser/issues/6698)
+
 ## Version
 
 * Phaser Version:
