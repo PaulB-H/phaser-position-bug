@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elemental Breakout</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* cursor: none; */
+      }
+      body {
+        background-color: black;
+      }
+
+      @font-face {
+        font-family: "vcr-black";
+        src: url("./assets/font/vcr-black/vcr-black.ttf") format("truetype");
+      }
+      button {
+        font-family: "vcr-black";
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app" style="position: relative"></div>
+
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
