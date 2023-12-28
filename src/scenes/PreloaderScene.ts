@@ -16,6 +16,9 @@ export default class PreloaderScene extends Phaser.Scene {
       },
     });
 
+    this.game.scale.displaySize.setSnap(160, 240);
+    this.game.scale.refresh();
+
     // Load Tilemap
     // prettier-ignore
     this.load.tilemapTiledJSON("position_test", "assets/levels/position_test.json");
